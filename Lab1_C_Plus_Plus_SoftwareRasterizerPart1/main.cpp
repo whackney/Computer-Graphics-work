@@ -24,6 +24,7 @@
 // C++ Standard Libraries
 #include <iostream>
 #include <algorithm>
+#include <vector>
 
 // User libraries
 #include "GL.h"
@@ -63,8 +64,8 @@ void drawLine(Vec2 v0, Vec2 v1, TGA& image, ColorRGB c){
 }
 
 void fillBottomFlatTriangle(Vec2 v0, Vec2 v1, Vec2 v2, TGA& image, ColorRGB c){
-  float invslope1 = (v1.x - v0.x) / (v1.y - v0.y);
-  float invslope2 = (v2.x - v0.x) / (v2.y - v0.y);
+  float invslope1 = (float)(v1.x - v0.x) / (v1.y - v0.y);
+  float invslope2 = (float)(v2.x - v0.x) / (v2.y - v0.y);
 
   float curx1 = v0.x;
   float curx2 = v0.x;
@@ -80,8 +81,8 @@ void fillBottomFlatTriangle(Vec2 v0, Vec2 v1, Vec2 v2, TGA& image, ColorRGB c){
 }
 
 void fillTopFlatTriangle(Vec2 v0, Vec2 v1, Vec2 v2, TGA& image, ColorRGB c){
-  float invslope1 = (v2.x - v0.x) / (v2.y - v0.y);
-  float invslope2 = (v2.x - v1.x) / (v2.y - v1.y);
+  float invslope1 = (float)(v2.x - v0.x) / (v2.y - v0.y);
+  float invslope2 = (float)(v2.x - v1.x) / (v2.y - v1.y);
 
   float curx1 = v2.x;
   float curx2 = v2.x;
@@ -124,11 +125,11 @@ void triangle(Vec2 v0, Vec2 v1, Vec2 v2,TGA& image, ColorRGB c){
         drawLine(v2,v0,image,c);
     }
     // TODO: Draw a filled triangle
-    Vec2 points[] = {v0, v1, v2};
-    int n = sizeof(points)/sizeof(points[0]);
-    std::sort(points, points+n, [](Vec2 a, Vec2 b){
+    std::vector<Vec2> points = {v0, v1, v2};
+    std::sort(points.begin(), points.end(), [](Vec2 a, Vec2 b){
       return a.y < b.y;
     });
+    std::cout << points[0].toString() << " " << points[1].toString() << " " << points[2].toString() << '\n';
     drawTriangle(points[0], points[1], points[2], image, c);
 }
 
