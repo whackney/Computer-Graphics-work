@@ -2,14 +2,14 @@
 
 *TODO*: Please edit the following information in your assignment
 
-* Name and partners name (At most 1 partner for this assignment): 
-* How many hours did it take you to complete this assignment? 
-* Did you collaborate or share ideas with any other students/TAs/Professors? 
-* Did you use any external resources? 
+* Name and partners name (At most 1 partner for this assignment): none
+* How many hours did it take you to complete this assignment? 7
+* Did you collaborate or share ideas with any other students/TAs/Professors? no
+* Did you use any external resources? stack overflow, c++.com
   * (tbd if any)
   * (tbd if any)
   * (tbd if any)
-* (Optional) What was the most interesting part of the assignment? How would you improve this assignment?
+* (Optional) What was the most interesting part of the assignment? How would you improve this assignment? Being able to learn a ton about the variety of things I can do in c++
   
 ## Description
 
