@@ -29,10 +29,10 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Cont
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.16/Modules/Platform/Darwin-Initialize.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.16/Modules/Platform/Darwin.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.16/Modules/Platform/UnixPaths.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Documents/Computer\ Graphics/ComputerGraphics/Lab3_Starfield/CMakeLists.txt))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Documents/Computer\ Graphics/ComputerGraphics/Lab3_Starfield/build/CMakeFiles/3.16.2/CMakeCCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Documents/Computer\ Graphics/ComputerGraphics/Lab3_Starfield/build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Documents/Computer\ Graphics/ComputerGraphics/Lab3_Starfield/build/CMakeFiles/3.16.2/CMakeSystem.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield/build/CMakeFiles/3.16.2/CMakeCCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield/build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield/build/CMakeFiles/3.16.2/CMakeSystem.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Qt/5.14.0/clang_64/lib/cmake/Qt5/Qt5Config.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Qt/5.14.0/clang_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Qt/5.14.0/clang_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake))
@@ -71,5 +71,5 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Qt/5.14.0/cl
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Qt/5.14.0/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/bhackney/Qt/5.14.0/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake))
 
-/Users/bhackney/Documents/Computer\ Graphics/ComputerGraphics/Lab3_Starfield/build/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/Applications/CMake.app/Contents/bin/cmake -H/Users/bhackney/Documents/Computer\ Graphics/ComputerGraphics/Lab3_Starfield -B/Users/bhackney/Documents/Computer\ Graphics/ComputerGraphics/Lab3_Starfield/build
+/Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield/build/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/Applications/CMake.app/Contents/bin/cmake -H/Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield -B/Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield/build
