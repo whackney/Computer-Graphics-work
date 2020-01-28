@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield/StarList.cpp \
-  /Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield/StarList.h \
+  /Users/bhackney/Documents/Computer\ Graphics/computer-graphics-partner/ComputerGraphics/Lab3_Starfield/StarList.cpp \
+  /Users/bhackney/Documents/Computer\ Graphics/computer-graphics-partner/ComputerGraphics/Lab3_Starfield/StarList.h \
   /Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/Headers/QVector \
   /Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/Headers/qvector.h \
   /Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/Headers/qalgorithms.h \

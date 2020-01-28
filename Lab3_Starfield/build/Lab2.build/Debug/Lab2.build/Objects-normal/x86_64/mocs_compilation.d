@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield/build/Lab2_autogen/mocs_compilation.cpp \
+  /Users/bhackney/Documents/Computer\ Graphics/computer-graphics-partner/ComputerGraphics/Lab3_Starfield/build/Lab2_autogen/mocs_compilation.cpp \
   /Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield/build/Lab2_autogen/include_Debug/EWIEGA46WW/moc_BasicWidget.cpp \
   /Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield/BasicWidget.h \
   /Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab3_Starfield/StarList.h \
