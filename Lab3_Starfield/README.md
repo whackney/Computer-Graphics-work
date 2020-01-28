@@ -11,10 +11,10 @@
 
 ## Modify this section
 
-- How many hours did it take you to complete this lab?
-- Did you collaborate with any other students/TAs/Professors?
+- How many hours did it take you to complete this lab? 1
+- Did you collaborate with any other students/TAs/Professors? Nicolas Karayakaylar
 - Did you use any external resources? (Cite them below)
-  - tbd
+  - qt documentation
   - tbd
 - (Optional) What was your favorite part of the lab?
 - (Optional) How would you improve the lab?
@@ -54,11 +54,11 @@ image.setPixelColor(x, y, color);
 This function will directly set the color of a specific pixel on the image that has been created. Each time a frame is rendered, the renderer (BasicWidget::paintEvent(..)) asks for a new frame to render.  This method of animation "uncaps" the frames per second that might be rendered.  This is important to realize because things can go too fast or too slow depending on how long a given machine might take to render a frame!
 
 
-### Colors 
+### Colors
 
 Each Star (defined as a struct in StarList.h) is able to have its own color defaulting to white. You are welcome to add more colors as you like or change them, though you only need two for the purpose of this assignment: White (for the stars) and Black (for the background).
 
-Note: There are many different ways to define different color formats (R5G6B5, BGR, ARGB, etc.). The pixel type for our QImage is RGB888 - This tells the image (and renderer) that we are storing 3 values per pixel, ordered Red -> Green -> Blue.  Each value is stored as an 8-bit value, for a 24 bit word. 
+Note: There are many different ways to define different color formats (R5G6B5, BGR, ARGB, etc.). The pixel type for our QImage is RGB888 - This tells the image (and renderer) that we are storing 3 values per pixel, ordered Red -> Green -> Blue.  Each value is stored as an 8-bit value, for a 24 bit word.
 
 ## Part 2 - Perspective [Reading 10 minutes]
 
@@ -98,7 +98,7 @@ Your solution should build using the CMakeLists.txt file.  First, run CMake, the
 ## Deliverables
 
 - Run CMake and execute the **lab** executable to show a moving starfield in 3D with a field of view of 70 degrees.
- 
+
 ## Going Further
 
 What is that, you finished Early? Did you enjoy this lab? Here are some (optional) ways to further this assignment.
