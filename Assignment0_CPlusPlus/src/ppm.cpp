@@ -1,165 +1,110 @@
-#include "PPM.h"
-#include <array>
-#include <iostream>
-#include <string>
+#include "../include/PPM.h"
 #include <fstream>
-#include <sstream>
-
-struct pixel {
-  int r;
-  int g;
-  int b;
-};
-
-int width;
-int height;
-int maxPixel;
-pixel pic[width][height];
-
+#include <string> // new library!
+#include <vector>
+#include <algorithm>
 
 // Constructor loads a filename with the .ppm extension
-PPM::PPM(std::string fileName){
-    // TODO:    Load and parse a ppm to get its pixel
-    //          data stored properly.
+PPM::PPM(std::string fileName) {
+	// Opens a file to output
+	std::ifstream inFile;
 
-  std::ifstream inFile;
-  inFile.open(fileName);
-  if(fileName.is_open()) {
-    int counter = 0;
-    int atPixel = 0;
-    std::string line;
-    while(getline(inFile,line)){
-      if(counter == 2) {
-        std::string w;
-        std::string h;
-        int atWidth = 0;
-        int atHeight = 0;
-        int atRGB = 0;
-        int i = 0;
+	// Now we can open our file.
+	inFile.open(fileName);
 
-        while (i < line.length()) {
-          if (line.at(i) == ' ') {
-            i++;
-            break;
-          }
-          else {
-            w.append(line.at(i));
-            i++;
-          }
-        }
+	// Lets also check to make sure the filepath is correct.
+	if (inFile.is_open()) {
+		//There are three consistent header lines in each file, not counting comments.
+		//Version Number, width/height, and max value
+		int headerLines = 3;
 
-        while (i < line.length()) {
-          h.append(line.at(i));
-          i++;
-        }
+		//The max value for a PPM should be 255.
+		float maxValue = 255.0;
 
-        stringstream wid(w);
-        stringstream len(h);
-        wid >> width;
-        len >> height;
-        counter++;
-      }
+		//The line being read.
+		std::string line;
 
-      else if(counter == 3 ) {
-        int i = 0;
-        std::string m
-        while (i < line.length()) {
-          m.append(line.at(i));
-        }
+		//The array of rgb colors
+		std::vector<unsigned char> coordinates;
 
-        stringstream max(m);
-        max >> maxPixel;
-        counter++;
-      }
+		//Iterate through the file, reading it line by line.
+		while (getline(inFile, line)) {
+			//Ignore comments
+			if (line.substr(0, 1) != "#") {
 
-      else if(counter > 3) {
-        pixel p;
-        for(int i = 0; i < 3; i++) {
-          if(i == 0) {
-            String red;
-            red.append(line);
-            stringstream re(red);
-            re >> p.r;
-          }
+				//Once all the header lines are dealt with, you can start reading the actual values from the PPM
+				if (headerLines == 0) {
+					coordinates.push_back((unsigned char)std::stoi(line));
+				} else {
+					headerLines--;
 
-          if(i == 1) {
-            String green;
-            green.append(getline(inFile, line));
-            stringstream gr(green);
-            fr >> p.g;
-          }
+					//Handle the width/height
+					if (headerLines == 1) {
+						int space = line.find(" ");
+						m_width = std::stoi(line.substr(0, space));
+						m_height = std::stoi(line.substr(space, line.length()));
 
-          if(i == 2) {
-            String blue;
-            blue.append(getline(inFile, line));
-            stringstream bl(blue);
-            bl >> p.b;
-          }
-        }
-        counter++
-      }
+					//Handle whatever value the PPM is currently scaled to
+					} else if (headerLines == 0) {
+						maxValue = std::stod(line);
+					}
+				}
+			}
+		}
 
-      else{
-        counter++;
-      }
-    }
-  inFile.close();
+		//Assign an array to the private variable pointer
+		m_PixelData = new unsigned char[m_width * m_height * 3];
+
+		//Scale the values, if necessary
+		for (int i = 0; i < coordinates.size(); i++) {
+			m_PixelData[i] = coordinates.at(i) * 255.0 / maxValue;
+		}
+
+		//Free up the Vector's memory
+		coordinates.erase(coordinates.begin(), coordinates.end());
+	}
+	//Close the file we're reading from
+	inFile.close();
 }
 
 // Destructor clears any memory that has been allocated
-PPM::~PPM(){
+PPM::~PPM() {
+	delete[] m_PixelData;
 }
 
 // Saves a PPM Image to a new file.
-void PPM::savePPM(std::string outputFileName){
-    // TODO: Save a PPM image to disk
-    std::ofstream outFile;
-    outFile.open(outputFileName);
+void PPM::savePPM(std::string outputFileName) {
+	//Open the file to write to
+	std::ofstream outFile(outputFileName);
 
-    outFile << "P3" << std::endl;
-    outFile << width << " " << height << std::endl;
-    for(pixel x : pic) {
-      outfile << x.r << std::endl;
-      outfile << x.g << std::endl;
-      outfile << x.b << std::endl;
-    }
+	//Make sure the file is correctly opened
+	if (outFile.is_open()) {
 
-    outFile.close();
+		//Stream out the header
+		outFile << "P3\n# CREATOR: Nicolas Karayakaylar\n" << m_width << " " << m_height << "\n255" << std::endl;
 
-    return 0;
+		//Stream out the PPM's data
+		for (int i = 0; i < m_width * m_height * 3; i++) {
+			outFile << (int)m_PixelData[i] << std::endl;
+		}
+	}
+
+	//Close the file being streamed to
+	outFile.close();
 }
 
-// Darken subtracts 50 from each of the red, green
-// and blue color components of all of the pixels
-// in the PPM. Note that no values may be less than
-// 0 in a ppm.
-void PPM::darken(){
-    // TODO: Output a 'filtered' PPM image.
-    for(pixel x : pic) {
-      x.r = x.r-50;
-      x.g = x.g-50;
-      x.b - x.b-50;
-
-      for (int i = 0; i < 3; i++) {
-        if(x.r  < 0) {
-          x.r = 0;
-        }
-
-        else if(x.g < 0) {
-          x.g = 0;
-        }
-
-        else if(x.b < 0) {
-          x.b = 0;
-        }
-      }
-    }
+// Darken subtracts 50 from each of the red, green and blue color components of all of the pixels in the PPM. Note that no values may be less than 0 in a ppm.
+void PPM::darken() {
+	for (int i = 0; i < m_width * m_height * 3; i++) {
+		//Decrease the value of a cell's RGB values by 50, or set it to zero, if it's already below 50.
+		m_PixelData[i] = std::max(m_PixelData[i] - 50, 0);
+	}
 }
 
 // Sets a pixel to a specific R,G,B value
-void PPM::setPixel(int x, int y, int R, int G, int B){
-    pic[x][y].r = R;
-    pic[x][y].g = G;
-    pic[x][y].b = B;
-
+void PPM::setPixel(int x, int y, int R, int G, int B) {
+	int slot = x * 3 + y * m_width * 3;
+	m_PixelData[slot] = R;
+	m_PixelData[slot + 1] = G;
+	m_PixelData[slot + 2] = B;
 }
