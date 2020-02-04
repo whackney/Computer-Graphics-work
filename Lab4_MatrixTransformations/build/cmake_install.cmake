@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab4_MatrixTransformations/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab4_MatrixTransformations/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

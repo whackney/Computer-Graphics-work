@@ -1,4 +1,4 @@
-/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab4_MatrixTransformations/build/CMakeFiles/Lab.dir
-/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab4_MatrixTransformations/build/CMakeFiles/Lab_autogen.dir
-/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab4_MatrixTransformations/build/CMakeFiles/ALL_BUILD.dir
-/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab4_MatrixTransformations/build/CMakeFiles/ZERO_CHECK.dir
+/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab4_MatrixTransformations/build/CMakeFiles/Lab.dir
+/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab4_MatrixTransformations/build/CMakeFiles/Lab_autogen.dir
+/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab4_MatrixTransformations/build/CMakeFiles/ALL_BUILD.dir
+/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab4_MatrixTransformations/build/CMakeFiles/ZERO_CHECK.dir

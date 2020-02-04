@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Users/bhackney/Documents/Computer\ Graphics/computer-graphics-partner/ComputerGraphics/Lab4_MatrixTransformations/build/CMakeFiles/ZERO_CHECK
+	/Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab4_MatrixTransformations/build/CMakeFiles/ZERO_CHECK
 
 
-/Users/bhackney/Documents/Computer\ Graphics/computer-graphics-partner/ComputerGraphics/Lab4_MatrixTransformations/build/CMakeFiles/ZERO_CHECK: 
+/Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab4_MatrixTransformations/build/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Users/bhackney/Documents/Computer\ Graphics/computer-graphics-partner/ComputerGraphics/Lab4_MatrixTransformations/build/CMakeScripts/ReRunCMake.make
+	make -f /Users/bhackney/Documents/Computer\ Graphics/Computer-Graphics-work/Lab4_MatrixTransformations/build/CMakeScripts/ReRunCMake.make
