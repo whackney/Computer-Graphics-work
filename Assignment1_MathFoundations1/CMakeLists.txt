@@ -15,6 +15,4 @@ set(srcs
 add_executable(Assignment1
   ${srcs}
 )
-
 target_link_libraries(Assignment1)
-

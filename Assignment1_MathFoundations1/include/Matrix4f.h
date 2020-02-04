@@ -2,7 +2,8 @@
 // Our matrix should match the behavior of the glm library.
 #ifndef MATRIX4F_H
 #define MATRIX4F_H
-
+#define _USE_MATH_DEFINES
+#include <math.h>
 #include <cmath>
 
 // We need to Vector4f header in order to multiply a matrix
@@ -40,13 +41,13 @@ public:
 
     // Makes the matrix an identity matrix
     void identity(){
-		n[0][0] = 1; n[0][1] = 0; n[0][2] = 0; n[0][3] = 0;
-		n[1][0] = 0; n[1][1] = 1; n[1][2] = 0; n[1][3] = 0;
-		n[2][0] = 0; n[2][1] = 0; n[2][2] = 1; n[2][3] = 0;
-		n[3][0] = 0; n[3][1] = 0; n[3][2] = 0; n[3][3] = 1;
+		n[0][0] = 1.0f; n[0][1] = 0; n[0][2] = 0; n[0][3] = 0;
+		n[1][0] = 0; n[1][1] = 1.0f; n[1][2] = 0; n[1][3] = 0;
+		n[2][0] = 0; n[2][1] = 0; n[2][2] = 1.0f; n[2][3] = 0;
+		n[3][0] = 0; n[3][1] = 0; n[3][2] = 0; n[3][3] = 1.0f;
     }
 
-    // Index operator with two dimensions
+    // Index operator with 2 dimensions
     // Example: M(1,1) returns row 1 and column 1 of matrix M.
     float& operator ()(int i, int j){
       return (n[j][i]);
@@ -68,43 +69,47 @@ public:
       return (*reinterpret_cast<const Vector4f *>(n[j]));
     }
 
+	float degreesToRadians(float angle_in_degrees) {
+		return angle_in_degrees * (M_PI / 180.0);
+	}
+
     // Make a matrix rotate about various axis
     Matrix4f MakeRotationX(float t){
         Matrix4f n;
         n.identity();
-        float radX = qDegreesToRadians(t);
-        n[1][1] = qCos(radX);
-        n[1][2] = qSin(radX);
-        n[2][1] = -qSin(radX);
-        n[2][2] = qCos(radX);
+        float radX = degreesToRadians(t);
+        n[1][1] = cos(radX);
+        n[1][2] = sin(radX);
+        n[2][1] = -sin(radX);
+        n[2][2] = cos(radX);
         return(n);
     }
     Matrix4f MakeRotationY(float t){
         Matrix4f n;
         n.identity();
-        float radY = qDegreesToRadians(t);
-        n[0][0] = qCos(radY);
-        n[0][2] = -qSin(radY);
-        n[2][0] = qSin(radY);
-        n[2][2] = qCos(radY);
+        float radY = degreesToRadians(t);
+        n[0][0] = cos(radY);
+        n[0][2] = -sin(radY);
+        n[2][0] = sin(radY);
+        n[2][2] = cos(radY);
         return(n);
     }
     Matrix4f MakeRotationZ(float t){
         Matrix4f n;
         n.identity();
-        float radZ = qDegreesToRadians(t);
-        n[0][0] = qCos(radZ);
-        n[0][1] = qSin(radZ);
-        n[1][0] = -qSin(radZ);
-        n[1][1] = qCos(radZ);
+        float radZ = degreesToRadians(t);
+        n[0][0] = cos(radZ);
+        n[0][1] = sin(radZ);
+        n[1][0] = -sin(radZ);
+        n[1][1] = cos(radZ);
         return(n);
     }
     Matrix4f MakeScale(float sx,float sy, float sz){
         Matrix4f n;
         n.identity();
-        n[0][0] = n[0][0] * sx;
-        n[1][1] = n[1][1] * sy;
-        n[2][2] = n[2][2] * sz;
+        n[0][0] = sx;
+        n[1][1] = sy;
+        n[2][2] = sz;
         return(n);
     }
 };
