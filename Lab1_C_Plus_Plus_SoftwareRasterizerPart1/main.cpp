@@ -1,12 +1,12 @@
 /** @file main.cpp
  *  @brief Entry point into our program.
- *
- *  Welcome to the Great Looking Software Render
+ *  
+ *  Welcome to the Great Looking Software Render 
  *  code base (Yes, I needed something with a gl prefix).
  *
  *  This is where you will implement your graphics API.
  *
- *  Compile on the terminal with:
+ *  Compile on the terminal with: 
  *
  *  clang++ -std=c++11 main.cpp -o main
  *
@@ -24,7 +24,6 @@
 // C++ Standard Libraries
 #include <iostream>
 #include <algorithm>
-#include <vector>
 
 // User libraries
 #include "GL.h"
@@ -34,7 +33,6 @@
 
 // Create a canvas to draw on.
 TGA canvas(WINDOW_WIDTH,WINDOW_HEIGHT);
-
 
 // Implementation of Bresenham's Line Algorithm
 // The input to this algorithm is two points and a color
@@ -63,106 +61,74 @@ void drawLine(Vec2 v0, Vec2 v1, TGA& image, ColorRGB c){
     }
 }
 
-void fillBottomFlatTriangle(Vec2 v0, Vec2 v1, Vec2 v2, TGA& image, ColorRGB c){
-  float invslope1 = (float)(v1.x - v0.x) / (v1.y - v0.y);
-  float invslope2 = (float)(v2.x - v0.x) / (v2.y - v0.y);
-
-  float curx1 = v0.x;
-  float curx2 = v0.x;
-
-  for (int scanlineY = v0.y; scanlineY <= v1.y; scanlineY++)
-  {
-    Vec2 left = {(int)curx1, scanlineY};
-    Vec2 right = {(int)curx2, scanlineY};
-    drawLine(left, right, image, c);
-    curx1 += invslope1;
-    curx2 += invslope2;
-  }
+float sign(Vec2 p1, Vec2 p2, Vec2 p3) {
+	return (p1.x - p3.x) * (p2.y - p3.y) - (p2.x - p3.x) * (p1.y - p3.y);
 }
 
-void fillTopFlatTriangle(Vec2 v0, Vec2 v1, Vec2 v2, TGA& image, ColorRGB c){
-  float invslope1 = (float)(v2.x - v0.x) / (v2.y - v0.y);
-  float invslope2 = (float)(v2.x - v1.x) / (v2.y - v1.y);
-
-  float curx1 = v2.x;
-  float curx2 = v2.x;
-
-  for (int scanlineY = v2.y; scanlineY > v0.y; scanlineY--)
-  {
-    Vec2 left = {(int)curx1, scanlineY};
-    Vec2 right = {(int)curx2, scanlineY};
-    drawLine(left, right, image, c);
-    curx1 -= invslope1;
-    curx2 -= invslope2;
-  }
-}
-
-void drawTriangle(Vec2 v0, Vec2 v1, Vec2 v2, TGA& image, ColorRGB c){
-  if (v1.y == v2.y){
-    fillBottomFlatTriangle(v0, v1, v2, image, c);
-  }
-
-  else if (v0.y == v1.y){
-    fillTopFlatTriangle(v0, v1, v2, image, c);
-  }
-
-  else {
-    Vec2 newVector = {
-      (int)(v0.x + ((float)(v1.y - v0.y) / (float)(v2.y - v0.y))
-      * (v2.x - v0.x)), v1.y
-    };
-
-    fillBottomFlatTriangle(v0, v1, newVector, image, c);
-    fillTopFlatTriangle(v1, newVector, v2, image, c);
-  }
+bool PointInTriangle(Vec2 pt, Vec2 v1, Vec2 v2, Vec2 v3) {
+	float d1 = sign(pt, v1, v2), d2 = sign(pt, v2, v3), d3 = sign(pt, v3, v1);
+	bool has_neg = (d1 < 0) || (d2 < 0) || (d3 < 0), has_pos = (d1 > 0) || (d2 > 0) || (d3 > 0);
+	return !(has_neg && has_pos);
 }
 
 // Draw a triangle
-void triangle(Vec2 v0, Vec2 v1, Vec2 v2,TGA& image, ColorRGB c){
-    if(glFillMode==LINE){
+void triangle(Vec2 v0, Vec2 v1, Vec2 v2, TGA &image, ColorRGB c){
+    if (glFillMode==LINE){
         drawLine(v0,v1,image,c);
         drawLine(v1,v2,image,c);
         drawLine(v2,v0,image,c);
-    }
-    // TODO: Draw a filled triangle
-    std::vector<Vec2> points = {v0, v1, v2};
-    std::sort(points.begin(), points.end(), [](Vec2 a, Vec2 b){
-      return a.y < b.y;
-    });
-    std::cout << points[0].toString() << " " << points[1].toString() << " " << points[2].toString() << '\n';
-    drawTriangle(points[0], points[1], points[2], image, c);
+	} else if (glFillMode == FILL) {
+		int minx = std::min(v0.x, std::min(v1.x, v2.x));
+		int maxx = std::max(v0.x, std::max(v1.x, v2.x));
+		int miny = std::min(v0.y, std::min(v1.y, v2.y));
+		int maxy = std::max(v0.y, std::max(v1.y, v2.y));
+		int counter = 0;
+		for (int i = minx; i < maxx; i++) {
+			bool columnstarted = false;
+			for (int j = miny; j < maxy; j++) {
+				counter++;
+				if (PointInTriangle(Vec2(i,j), v0, v1, v2)) {
+					columnstarted = true;
+					canvas.setPixelColor(i, j, c);
+				} else if (columnstarted) {
+					break;
+				}
+			}
+		}
+	}
 }
-
-
 
 // Main
 int main(){
-
     // A sample of color(s) to play with
-    ColorRGB red;
+    ColorRGB red, blue, green;
     red.r = 255; red.g = 0; red.b = 0;
+	blue.r = 0; blue.g = 0; blue.b = 255;
+	green.r = 0; green.g = 255; green.b = 0;
 
+	// Points for our Line
+	Vec2 line[2] = { Vec2(0,0), Vec2(100,100) };
 
-    // Points for our Line
-    Vec2 line[2] = {Vec2(0,0), Vec2(100,100)};
+	// Set the fill mode
+	glPolygonMode(FILL);
 
-    // Set the fill mode
-    glPolygonMode(FILL);
+	// Draw a line
+	drawLine(line[0], line[1], canvas, red);
 
-    // Draw a line
-    drawLine(line[0],line[1],canvas,red);
+	// Data for our triangle
+	Vec2 tri[3] = { Vec2(0,320), Vec2(320,320), Vec2(160,0) };
+	Vec2 tri1[3] = { Vec2(160,320), Vec2(0,160), Vec2(320,160) };
+	Vec2 tri2[3] = { Vec2(11,213), Vec2(213,312), Vec2(312,11) };
 
-    // Data for our triangle
-    Vec2 tri[3] = {Vec2(160,60),Vec2(150,10),Vec2(75,190)};
-    Vec2 tri1[3] = {Vec2(300,20),Vec2(500,40),Vec2(100,40)};
+	glFillMode = FILL;
 
-    // Draw a triangle
-    triangle(tri[0],tri[1],tri[2],canvas,red);
-    triangle(tri1[0], tri1[1], tri1[2], canvas, red);
+	// Draw a triangle
+	triangle(tri[0], tri[1], tri[2], canvas, red);
+	triangle(tri2[0], tri2[1], tri2[2], canvas, green);
+	triangle(tri1[0], tri1[1], tri1[2], canvas, blue);
 
-
-    // Output the final image
-    canvas.outputTGAImage("graphics_lab2.ppm");
+		// Output the final image
+	canvas.outputTGAImage("graphics_lab2.ppm");
 
     return 0;
 }

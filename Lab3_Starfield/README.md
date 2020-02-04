@@ -11,12 +11,14 @@
 
 ## Modify this section
 
-- How many hours did it take you to complete this lab? 1
-- Did you collaborate with any other students/TAs/Professors? Nicolas Karayakaylar
+- How many hours did it take you to complete this lab?
+	>4
+- Did you collaborate with any other students/TAs/Professors?
+	>Nicolas Karayakaylar and Ben Hackney worked on this.
 - Did you use any external resources? (Cite them below)
-  - qt documentation
-  - tbd
+	>qt documentation
 - (Optional) What was your favorite part of the lab?
+	>Probably the finished product. It actually looks cool, even by itself.
 - (Optional) How would you improve the lab?
 
 ## Logistics

@@ -1,10 +1,9 @@
 #ifndef MATHS_H
 #define MATHS_H
-#include <string>
 
 /** @file Maths.h
  *  @brief Structs with math data types
- *
+ *  
  *  Note this is implemented as a header only library.
  *  This is to make this code easy to be shared.
  *
@@ -17,7 +16,7 @@
 // Structure for plotting integer points.
 struct Vec2{
     int x,y;
-    // Default Constructor
+    // Default Constructor   
     Vec2(){
         x = y = 0;
     }
@@ -33,7 +32,7 @@ struct Vec2{
         result.x = this->x + a.x;
         result.y = this->y + a.y;
         return result;
-    }
+    } 
     // Subtract operator
     Vec2 operator-(const Vec2& a) const{
         Vec2 result;
@@ -47,10 +46,6 @@ struct Vec2{
         result.x = this->x * a;
         result.y = this->y * a;
         return result;
-    }
-
-    std::string toString() {
-      return std::string("(" + std::to_string(x) + ", " + std::to_string(y) + ")");
     }
 };
 

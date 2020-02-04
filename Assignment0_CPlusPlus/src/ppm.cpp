@@ -51,7 +51,7 @@ PPM::PPM(std::string fileName) {
 				}
 			}
 		}
-
+		
 		//Assign an array to the private variable pointer
 		m_PixelData = new unsigned char[m_width * m_height * 3];
 
@@ -101,7 +101,7 @@ void PPM::darken() {
 	}
 }
 
-// Sets a pixel to a specific R,G,B value
+// Sets a pixel to a specific R,G,B value 
 void PPM::setPixel(int x, int y, int R, int G, int B) {
 	int slot = x * 3 + y * m_width * 3;
 	m_PixelData[slot] = R;

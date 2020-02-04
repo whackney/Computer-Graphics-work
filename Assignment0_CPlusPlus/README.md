@@ -2,14 +2,18 @@
 
 *TODO*: Please edit the following information in your assignment
 
-* Name and partners name (At most 1 partner for this assignment): Ben Hackney, Nicolas Karayakaylar
-* How many hours did it take you to complete this assignment? 12
-* Did you collaborate or share ideas with any other students/TAs/Professors? no
-* Did you use any external resources? stack overflow, c++.com
-  * stack overflow
-  * c++.com
-  * qt documentation
-* (Optional) What was the most interesting part of the assignment? How would you improve this assignment? Being able to learn a ton about the variety of things I can do in c++
+* Name and partners name (At most 1 partner for this assignment):
+	>Nicolas Karayakaylar, Ben Hackney
+* How many hours did it take you to complete this assignment?
+	>Too many. 12, maybe.
+* Did you collaborate or share ideas with any other students/TAs/Professors?
+	>I did not. I wanted to! But I did not.
+* Did you use any external resources?
+	>I used a lot of StackOverflow.
+	>I also used a lot of GeeksForGeeks.
+	>And I used a bit of cplusplus.com.
+* (Optional) What was the most interesting part of the assignment? How would you improve this assignment?
+	>The most interesting part was probably completing it--now that I have a working, bugless, engine, the possibilities for image editing are endless.
 
 ## Description
 

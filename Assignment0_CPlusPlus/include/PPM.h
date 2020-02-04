@@ -3,7 +3,7 @@
  *  
  *  Class for working with P3 PPM images specifically.
  *
- *  @author your_name_here
+ *  @author Nicolas Karayakaylar
  *  @bug No known bugs.
  */
 #ifndef PPM_H
@@ -43,6 +43,5 @@ private:
     int m_width{0};
     int m_height{0};
 };
-
 
 #endif
