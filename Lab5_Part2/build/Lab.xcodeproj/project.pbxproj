@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		533D678C00E4443088AFA05C /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E04B65C9FED54DC9845851A2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CFF46F8C1C1E4870A1ED8C92 /* CMake Rules */,
+			);
+			dependencies = (
+				56ECB34B271E42978A01B9D7 /* PBXTargetDependency */,
+				6F4123811DAE417EBEA55078 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		7758F261005C41F8B55D7EF1 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7C278B30FFFD49F1ABADD210 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				561FCCA0A9D34C45B6ACCF00 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		D561D4F232B84474B6D99EAB /* Lab_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3ABE60CB74634114A8D103A3 /* Build configuration list for PBXAggregateTarget "Lab_autogen" */;
+			buildPhases = (
+				17C2C1348CF44DE8B2504D0D /* CMake Rules */,
+			);
+			dependencies = (
+				A62FB0DF13CC4CC481D9FF4A /* PBXTargetDependency */,
+			);
+			name = Lab_autogen;
+			productName = Lab_autogen;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		29939F4BC3B145F3ACA2BF9D /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/Lab.cpp */ = {isa = PBXBuildFile; fileRef = 0B8A61AE599443509A052456 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/Lab.cpp */; };
+		A09D614C97CD46748336BBC3 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/main.cpp */ = {isa = PBXBuildFile; fileRef = 0E4FAB531432402C86B5775F /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/main.cpp */; };
+		C6967D03507C42FBA088827E /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/Lab_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = 0233060FEB4F4F41838D2192 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/Lab_autogen/mocs_compilation.cpp */; };
+		D688590A6CB34C749442413B /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/BasicWidget.cpp */ = {isa = PBXBuildFile; fileRef = AACA9B95175B4AE3BC7FD11B /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/BasicWidget.cpp */; };
+		EFE1BA55AEDB4AED9F53E601 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D3C6A01C52ED40EDBDBB59F9 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		5F1ED5C7384F41EDB564EDE5 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6C4CF507D1574D92A40AFD22 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D823E6D0BB594CA6AB0616A5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E2CF7B01929F406EB40495DE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		005FDB6E3C504A958D7BCE67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9C3A259D6246579478CD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7758F261005C41F8B55D7EF1;
+			remoteInfo = ZERO_CHECK;
+		};
+		15FE8EA37D534741B045A160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9C3A259D6246579478CD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7758F261005C41F8B55D7EF1;
+			remoteInfo = ZERO_CHECK;
+		};
+		22AB55E997BA497AB59B63A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9C3A259D6246579478CD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75FA6D021794BEEBE3F5355;
+			remoteInfo = Lab;
+		};
+		5BA8E82832C64E9D85A5D15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9C3A259D6246579478CD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D561D4F232B84474B6D99EAB;
+			remoteInfo = Lab_autogen;
+		};
+		817E4F0EF4DE4576B82BD907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9C3A259D6246579478CD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7758F261005C41F8B55D7EF1;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0233060FEB4F4F41838D2192 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/Lab_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = build/Lab_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		0B8A61AE599443509A052456 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/Lab.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Lab.cpp; path = Lab.cpp; sourceTree = SOURCE_ROOT; };
+		0E4FAB531432402C86B5775F /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		A44E2516B85F4D378872AD10 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AACA9B95175B4AE3BC7FD11B /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/BasicWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BasicWidget.cpp; path = BasicWidget.cpp; sourceTree = SOURCE_ROOT; };
+		B6EA6D2375194094A924D632 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CA6771193C1E4E57B2FA0D9D /* Lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Lab; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C6A01C52ED40EDBDBB59F9 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0D4467C469FC4524ADB560DB /* Lab_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				DC4F6D9EFC2E488E90F8A498 /* CMake Rules */,
+				B6EA6D2375194094A924D632 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/CMakeLists.txt */,
+			);
+			name = Lab_autogen;
+			sourceTree = "<group>";
+		};
+		1022ADDEDA34492590A8775E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6771193C1E4E57B2FA0D9D /* Lab */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28F2C2A2062743918964038C = {
+			isa = PBXGroup;
+			children = (
+				481E1B6D64DB431396EDA05F /* Lab */,
+				0D4467C469FC4524ADB560DB /* Lab_autogen */,
+				B5FEE9EC21D24DA6BE1AD70E /* ALL_BUILD */,
+				1022ADDEDA34492590A8775E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		481E1B6D64DB431396EDA05F /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+				5C03C8E3AFDB4785BC211D48 /* Source Files */,
+				D3C6A01C52ED40EDBDBB59F9 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/CMakeLists.txt */,
+			);
+			name = Lab;
+			sourceTree = "<group>";
+		};
+		5C03C8E3AFDB4785BC211D48 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AACA9B95175B4AE3BC7FD11B /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/BasicWidget.cpp */,
+				0B8A61AE599443509A052456 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/Lab.cpp */,
+				0233060FEB4F4F41838D2192 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/Lab_autogen/mocs_compilation.cpp */,
+				0E4FAB531432402C86B5775F /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5FDBDDEE57744B11A6AB36A0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B5FEE9EC21D24DA6BE1AD70E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				5FDBDDEE57744B11A6AB36A0 /* CMake Rules */,
+				A44E2516B85F4D378872AD10 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DC4F6D9EFC2E488E90F8A498 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B75FA6D021794BEEBE3F5355 /* Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5261F40B6404E868A5EA035 /* Build configuration list for PBXNativeTarget "Lab" */;
+			buildPhases = (
+				782D1603C5B14151AD0DA451 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31A574F3327A4CBF942D0C22 /* PBXTargetDependency */,
+				AB9D5CB1EB234FF9AE19B166 /* PBXTargetDependency */,
+			);
+			name = Lab;
+			productName = Lab;
+			productReference = CA6771193C1E4E57B2FA0D9D /* Lab */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A9C3A259D6246579478CD49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 819A2637462B45A38C6E41C5 /* Build configuration list for PBXProject "Lab" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E2CF7B01929F406EB40495DE /* Debug */,
+				5F1ED5C7384F41EDB564EDE5 /* Release */,
+				D823E6D0BB594CA6AB0616A5 /* MinSizeRel */,
+				6C4CF507D1574D92A40AFD22 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 28F2C2A2062743918964038C;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				533D678C00E4443088AFA05C /* ALL_BUILD */,
+				B75FA6D021794BEEBE3F5355 /* Lab */,
+				D561D4F232B84474B6D99EAB /* Lab_autogen */,
+				7758F261005C41F8B55D7EF1 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F714952ED73494AAF2F8CB8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		108A6530EE6045F7BDD8B58B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		17C2C1348CF44DE8B2504D0D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bhackney/Documents/Computer\\ Graphics/Computer-Graphics-work/Lab5_Part2/build -f /Users/bhackney/Documents/Computer\\ Graphics/Computer-Graphics-work/Lab5_Part2/build/CMakeScripts/Lab_autogen_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		561FCCA0A9D34C45B6ACCF00 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bhackney/Documents/Computer\\ Graphics/Computer-Graphics-work/Lab5_Part2/build -f /Users/bhackney/Documents/Computer\\ Graphics/Computer-Graphics-work/Lab5_Part2/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		BB1D39AD3B014506A718AA8C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CFF46F8C1C1E4870A1ED8C92 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bhackney/Documents/Computer\\ Graphics/Computer-Graphics-work/Lab5_Part2/build -f /Users/bhackney/Documents/Computer\\ Graphics/Computer-Graphics-work/Lab5_Part2/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782D1603C5B14151AD0DA451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D688590A6CB34C749442413B /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/BasicWidget.cpp */,
+				29939F4BC3B145F3ACA2BF9D /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/Lab.cpp */,
+				C6967D03507C42FBA088827E /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/Lab_autogen/mocs_compilation.cpp */,
+				A09D614C97CD46748336BBC3 /* /Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31A574F3327A4CBF942D0C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D561D4F232B84474B6D99EAB /* Lab_autogen */;
+			targetProxy = 5BA8E82832C64E9D85A5D15D /* PBXContainerItemProxy */;
+		};
+		56ECB34B271E42978A01B9D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B75FA6D021794BEEBE3F5355 /* Lab */;
+			targetProxy = 22AB55E997BA497AB59B63A9 /* PBXContainerItemProxy */;
+		};
+		6F4123811DAE417EBEA55078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7758F261005C41F8B55D7EF1 /* ZERO_CHECK */;
+			targetProxy = 817E4F0EF4DE4576B82BD907 /* PBXContainerItemProxy */;
+		};
+		A62FB0DF13CC4CC481D9FF4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7758F261005C41F8B55D7EF1 /* ZERO_CHECK */;
+			targetProxy = 005FDB6E3C504A958D7BCE67 /* PBXContainerItemProxy */;
+		};
+		AB9D5CB1EB234FF9AE19B166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7758F261005C41F8B55D7EF1 /* ZERO_CHECK */;
+			targetProxy = 15FE8EA37D534741B045A160 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		104C9A07B75F425C83070E60 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_OPENGL_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build\"","\"/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2\"","\"/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/Lab_autogen/include_MinSizeRel\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/bhackney/Qt/5.14.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL /Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui /Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/Headers,"/Users/bhackney/Qt/5.14.0/clang_64/./mkspecs/macx-clang",/Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		230667F0001F457DB139C5FD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		24697C5094BC4E17B1C190C7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2E14272D12164942A3478A14 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		435E0365B2FF4596A35439F9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		490EAB9EFFE54E45B06E3973 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/build";
+			};
+			name = MinSizeRel;
+		};
+		68F006FF39AF4B81AD1B0C3E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_OPENGL_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build\"","\"/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2\"","\"/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/Lab_autogen/include_RelWithDebInfo\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/bhackney/Qt/5.14.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL /Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui /Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/Headers,"/Users/bhackney/Qt/5.14.0/clang_64/./mkspecs/macx-clang",/Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		860FC944B5744827815781AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9AA11488EDCD4F1CA48CFA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AF9D4BFBC64D44918117C2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_OPENGL_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build\"","\"/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2\"","\"/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/Lab_autogen/include_Release\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/bhackney/Qt/5.14.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL /Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui /Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/Headers,"/Users/bhackney/Qt/5.14.0/clang_64/./mkspecs/macx-clang",/Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C275C06F1F714401893C7517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CCFA97F7007243C68A2565D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D44ED7E347B14577B900F9A8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D79FC4BDF24E4AF480CA8AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_OPENGL_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build\"","\"/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2\"","\"/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/Lab_autogen/include_Debug\"");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /Users/bhackney/Qt/5.14.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL /Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui /Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/Headers,"/Users/bhackney/Qt/5.14.0/clang_64/./mkspecs/macx-clang",/Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/Headers);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D97DD6844C0A4339918F646B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EA0DD6CFFD6242B8BE6E22C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EC5E82B4F33144088ECC7B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/build";
+			};
+			name = Debug;
+		};
+		F428D7F835D44895970F01AF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F7E8CCCA68D74D358A5F18D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/build";
+			};
+			name = Release;
+		};
+		FFE81A610F8942AEB57A26B3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Lab_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ABE60CB74634114A8D103A3 /* Build configuration list for PBXAggregateTarget "Lab_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0DD6CFFD6242B8BE6E22C3 /* Debug */,
+				C275C06F1F714401893C7517 /* Release */,
+				FFE81A610F8942AEB57A26B3 /* MinSizeRel */,
+				F428D7F835D44895970F01AF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7C278B30FFFD49F1ABADD210 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFA97F7007243C68A2565D3 /* Debug */,
+				D97DD6844C0A4339918F646B /* Release */,
+				435E0365B2FF4596A35439F9 /* MinSizeRel */,
+				D44ED7E347B14577B900F9A8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		819A2637462B45A38C6E41C5 /* Build configuration list for PBXProject "Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5E82B4F33144088ECC7B09 /* Debug */,
+				F7E8CCCA68D74D358A5F18D4 /* Release */,
+				490EAB9EFFE54E45B06E3973 /* MinSizeRel */,
+				2E14272D12164942A3478A14 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5261F40B6404E868A5EA035 /* Build configuration list for PBXNativeTarget "Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79FC4BDF24E4AF480CA8AF6 /* Debug */,
+				AF9D4BFBC64D44918117C2C5 /* Release */,
+				104C9A07B75F425C83070E60 /* MinSizeRel */,
+				68F006FF39AF4B81AD1B0C3E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E04B65C9FED54DC9845851A2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860FC944B5744827815781AE /* Debug */,
+				9AA11488EDCD4F1CA48CFA5F /* Release */,
+				230667F0001F457DB139C5FD /* MinSizeRel */,
+				24697C5094BC4E17B1C190C7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A9C3A259D6246579478CD49 /* Project object */;
+}
