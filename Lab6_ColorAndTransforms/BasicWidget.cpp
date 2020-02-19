@@ -2,7 +2,7 @@
 
 //////////////////////////////////////////////////////////////////////
 // Publics
-BasicWidget::BasicWidget(QWidget* parent) : QOpenGLWidget(parent), vbo_(QOpenGLBuffer::VertexBuffer), cbo_(QOpenGLBuffer::VertexBuffer), ibo_(QOpenGLBuffer::IndexBuffer), logger_(this)
+BasicWidget::BasicWidget(QWidget* parent) : QOpenGLWidget(parent), vbo_(QOpenGLBuffer::VertexBuffer), ibo_(QOpenGLBuffer::IndexBuffer), logger_(this)
 {
   setFocusPolicy(Qt::StrongFocus);
 }
@@ -29,14 +29,12 @@ QString BasicWidget::vertexShaderString() const
     "uniform mat4 modelMatrix;\n"
     "uniform mat4 viewMatrix;\n"
     "uniform mat4 projectionMatrix;\n"
-    
+
     "out vec4 vertColor;\n"
 
     "void main()\n"
     "{\n"
-    // TODO: gl_Position must be updated!
-    "  gl_Position = vec4(position, 1.0);\n"
-    // END TODO
+    "  gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(-0.8 * position, 1.0);\n"
     "  vertColor = color;\n"
     "}\n";
   return str;
@@ -99,7 +97,7 @@ void BasicWidget::initializeGL()
   model_.setToIdentity();
   view_.setToIdentity();
   projection_.setToIdentity();
-  
+
   // Setup the logger for real-time messaging
   connect(&logger_, &QOpenGLDebugLogger::messageLogged, [=](){
     const QList<QOpenGLDebugMessage> messages = logger_.loggedMessages();
@@ -108,7 +106,7 @@ void BasicWidget::initializeGL()
     }
   });
   logger_.startLogging();
-  
+
   QOpenGLContext* curContext = this->context();
   qDebug() << "[BasicWidget]::initializeGL() -- Context Information:";
   qDebug() << "  Context Valid: " << std::string(curContext->isValid() ? "true" : "false").c_str();
@@ -122,19 +120,16 @@ void BasicWidget::initializeGL()
   createShader();
 
   // Define our verts
-  static const GLfloat verts[9] =
+  static const GLfloat verts_colors[21] =
   {
     0.0f, 0.0f, 0.0f, // Center vertex position
+    1.0f, 0.0f, 0.0f, 1.0f, // red
     1.0f, 1.0f, 0.0f,  // Top right vertex position
-    -1.0f,  1.0f, 0.0f  // Top left vertex position
+    0.0f, 1.0f, 0.0f, 1.0f, // green
+    -1.0f,  1.0f, 0.0f,  // Top left vertex position
+    0.0f, 0.0f, 1.0f, 1.0f // blue
   };
-  // Define our vert colors
-  static const GLfloat colors[12] =
-  {
-      1.0f, 0.0f, 0.0f, 1.0f, // red
-      0.0f, 1.0f, 0.0f, 1.0f, // green
-      0.0f, 0.0f, 1.0f, 1.0f // blue
-  };
+
   // Define our indices
   static const GLuint idx[3] =
   {
@@ -144,55 +139,59 @@ void BasicWidget::initializeGL()
   // Temporary bind of our shader.
   shaderProgram_.bind();
 
-  // TODO:  Create a position + color buffer
-  // Note - use the vbo_ member provided 
+  // Note - use the vbo_ member provided
   vbo_.create();
   vbo_.setUsagePattern(QOpenGLBuffer::StaticDraw);
   vbo_.bind();
-  vbo_.allocate(verts, 3 * 3 * sizeof(GL_FLOAT));
-  // END TODO
-  
-  // TODO:  Remove the cbo_
-  cbo_.create();
-  cbo_.setUsagePattern(QOpenGLBuffer::StaticDraw);
-  cbo_.bind();
-  cbo_.allocate(colors, 3 * 4 * sizeof(GL_FLOAT));
-  // END TODO
+  vbo_.allocate(verts_colors, (3 * 3 * sizeof(GL_FLOAT)) + (4 * 3 * sizeof(GL_FLOAT)));
 
-  // TODO:  Generate our index buffer
   ibo_.create();
   ibo_.setUsagePattern(QOpenGLBuffer::StaticDraw);
   ibo_.bind();
   ibo_.allocate(idx, 3 * sizeof(GL_UNSIGNED_INT));
-  // ENDTODO
 
   // Create a VAO to keep track of things for us.
   vao_.create();
   vao_.bind();
   vbo_.bind();
-  // TODO:  Enable the attribute arrays for position and color
-  // Note:  Remember that Offset and Stride are expressed in terms
-  //        of bytes!
+
   shaderProgram_.enableAttributeArray(0);
-  shaderProgram_.setAttributeBuffer(0, GL_FLOAT, 0, 3);
-  cbo_.bind();
+  shaderProgram_.setAttributeBuffer(0, GL_FLOAT, 0, 3, 7 * sizeof(GL_FLOAT));
+
   shaderProgram_.enableAttributeArray(1);
-  shaderProgram_.setAttributeBuffer(1, GL_FLOAT, 0, 4);
-  // END TODO
+  shaderProgram_.setAttributeBuffer(1, GL_FLOAT, 3 * sizeof(GL_FLOAT), 4, 7 * sizeof(GL_FLOAT));
 
   ibo_.bind();
-  // Releae the vao THEN the vbo
+  // Release the vao THEN the vbo
   vao_.release();
   shaderProgram_.release();
 
   glViewport(0, 0, width(), height());
 }
 
-void BasicWidget::resizeGL(int w, int h)
-{
+void BasicWidget::resizeGL(int w, int h) {
   glViewport(0, 0, w, h);
-  // TODO:  Set up the model, view, and projection matrices
-  // END TODO
+
+  model_ = QMatrix4x4(
+	1, 0, 0, 0,
+	0, 1, 0, 0,
+	0, 0, 1, 0,
+	0, 0, 0, 1);
+
+  view_.lookAt(QVector3D(2, -3, 3), // Camera is at (2,-3,3), in World Space
+	QVector3D(0, 0, 0), // and looks at the origin
+	QVector3D(0, 1, 0)  // Head is up (set to 0,-1,0 to look upside-down)
+  );
+
+  projection_.perspective(45.0f, (float)w / h, 0.1f, 100.0f);
+
+  shaderProgram_.bind();
+
+  shaderProgram_.setUniformValue("modelMatrix", model_);
+  shaderProgram_.setUniformValue("viewMatrix", view_);
+  shaderProgram_.setUniformValue("projectionMatrix", projection_);
+
+  shaderProgram_.release();
 }
 
 void BasicWidget::paintGL()

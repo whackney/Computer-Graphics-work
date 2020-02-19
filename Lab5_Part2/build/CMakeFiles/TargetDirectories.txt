@@ -1,4 +1,0 @@
-/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/CMakeFiles/Lab.dir
-/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/CMakeFiles/Lab_autogen.dir
-/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/CMakeFiles/ALL_BUILD.dir
-/Users/bhackney/Documents/Computer Graphics/Computer-Graphics-work/Lab5_Part2/build/CMakeFiles/ZERO_CHECK.dir

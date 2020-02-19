@@ -1,0 +1,4 @@
+/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab6_ColorAndTransforms/build/CMakeFiles/App.dir
+/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab6_ColorAndTransforms/build/CMakeFiles/App_autogen.dir
+/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab6_ColorAndTransforms/build/CMakeFiles/ALL_BUILD.dir
+/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab6_ColorAndTransforms/build/CMakeFiles/ZERO_CHECK.dir
