@@ -15,6 +15,12 @@
 ########################
 
 //Value Computed by CMake
+App_BINARY_DIR:STATIC=/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Assignment3_ModelParser/build
+
+//Value Computed by CMake
+App_SOURCE_DIR:STATIC=/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Assignment3_ModelParser
+
+//Value Computed by CMake
 Assignment_BINARY_DIR:STATIC=/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Assignment3_ModelParser/build
 
 //Value Computed by CMake
@@ -234,6 +240,10 @@ Qt5_DIR:PATH=/Users/bhackney/Qt/5.14.0/clang_64/lib/cmake/Qt5
 //Stored Xcode object GUID
 ALL_BUILD_GUID_CMAKE:INTERNAL=5ECFB8BD5B6140EF97B0BD83
 //Stored Xcode object GUID
+App_GUID_CMAKE:INTERNAL=1BA7A2E39B614F6D893918C7
+//Stored Xcode object GUID
+App_autogen_GUID_CMAKE:INTERNAL=C879DDF15F04482EBB9E5963
+//Stored Xcode object GUID
 Assignment_GUID_CMAKE:INTERNAL=053AC06F394248718036FB17
 //Stored Xcode object GUID
 Assignment_autogen_GUID_CMAKE:INTERNAL=82F2091D6B274D85AB0A21B8
@@ -368,6 +378,8 @@ OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glu_LIBRARY
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
+//Stored Xcode object GUID
+PROJECT_App_GUID_CMAKE:INTERNAL=EF5BDCAB038A42008DA9DF04
 //Stored Xcode object GUID
 PROJECT_Assignment_GUID_CMAKE:INTERNAL=E3FDFBB4BBD34EDF94629EC7
 //Stored Xcode object GUID
