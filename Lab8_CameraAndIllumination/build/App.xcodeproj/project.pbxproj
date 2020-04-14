@@ -9,21 +9,21 @@
 /* Begin PBXAggregateTarget section */
 		158D34BC912A4A909F278831 /* App_autogen */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 53ECB2A9AD6C4BFF80A206E1 /* Build configuration list for PBXAggregateTarget "App_autogen" */;
+			buildConfigurationList = F568C0B85F614BAA895BDAFD /* Build configuration list for PBXAggregateTarget "App_autogen" */;
 			buildPhases = (
-				D9533880751B4503A513B7A4 /* CMake Rules */,
+				D27DDA9FDAAC4370BFB5D20F /* CMake Rules */,
 			);
 			dependencies = (
-				9217CE4370C846B2B0ECB072 /* PBXTargetDependency */,
+				786431802E4749BBA35B6612 /* PBXTargetDependency */,
 			);
 			name = App_autogen;
 			productName = App_autogen;
 		};
 		74081D2E6573483C888EB8B2 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 339C122965CF435BBAA6DC8A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 13E89E94FA904E48B2B12E33 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				68BC3CE6D7A949298D82946F /* CMake Rules */,
+				39BE8D3B075542D18DC78002 /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -32,13 +32,13 @@
 		};
 		EDF479C1C2D344B5B57FD9DB /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4051F9912973455D9E8A7560 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = BC3FA3130D4A49C5A8646424 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				860F7027FD9140CFB19B0378 /* CMake Rules */,
+				BE94467CE52B4A169A32F17F /* CMake Rules */,
 			);
 			dependencies = (
-				6159DB8993AE4AC5B7C7A540 /* PBXTargetDependency */,
-				9948125216A544A8A63A5F46 /* PBXTargetDependency */,
+				2FDB02F28B8742F9909BC2FB /* PBXTargetDependency */,
+				944682C2EC5647DA8693F67A /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -46,171 +46,171 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		28B45CE710F642058F712908 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/BasicWidget.cpp */ = {isa = PBXBuildFile; fileRef = B90E51685808427F8031ED12 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/BasicWidget.cpp */; };
-		4FF521CCFA434A88B7D40555 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Camera.cpp */ = {isa = PBXBuildFile; fileRef = 6EC1156585D2453897DBD9E2 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Camera.cpp */; };
-		61FA77454BDE445BA3A31ABE /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = 53C8922A48CA45AE910D9ACE /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/mocs_compilation.cpp */; };
-		844591DB049646C4B505BEF4 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/App.cpp */ = {isa = PBXBuildFile; fileRef = 7E2EC7365F6D42E2A5D3FBF6 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/App.cpp */; };
-		A33034A835004166AA5EA0C9 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D3DCEBC7363249E98120D6F0 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */; };
-		C5AF32A3BC2640A38D46C831 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Renderable.cpp */ = {isa = PBXBuildFile; fileRef = 9BFC52BEA2B34081AB03AD13 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Renderable.cpp */; };
-		CCACC39C37CD4C06AB0EF413 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/main.cpp */ = {isa = PBXBuildFile; fileRef = E23A10303B5148D7B4BABACC /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/main.cpp */; };
-		DC3D6664A2444329AD6EC8CF /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/UnitQuad.cpp */ = {isa = PBXBuildFile; fileRef = 8D21333669A34EAFAAA9D972 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/UnitQuad.cpp */; };
+		2A8F6B220EA74F25B6F43FA0 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/main.cpp */ = {isa = PBXBuildFile; fileRef = E97F376666DD4A269EA64D99 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/main.cpp */; };
+		65AFD744FF4A44E599EC285A /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/App.cpp */ = {isa = PBXBuildFile; fileRef = CA0BA51DE4D148A38D81BE22 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/App.cpp */; };
+		6AE82D3EBC3A4CBA91C0B7B2 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Camera.cpp */ = {isa = PBXBuildFile; fileRef = 400BAD2B85D84EFE834904E4 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Camera.cpp */; };
+		7D7DD998B3ED44D8B18FD3F9 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Renderable.cpp */ = {isa = PBXBuildFile; fileRef = CE7123B3F1394ADFA53B6FD7 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Renderable.cpp */; };
+		7EECD305AB4243FAB9708AC8 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6A2FF42F9516443C9B3FAE3B /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */; };
+		849B0608439F407AA7D96161 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/BasicWidget.cpp */ = {isa = PBXBuildFile; fileRef = 0BF4F491CF0B43FF9072E3D1 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/BasicWidget.cpp */; };
+		A26DE7D0795A49BBB98AD50C /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = CECD269351ED477F9349C0F1 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/mocs_compilation.cpp */; };
+		C5FD0217FE414889AF4FF5D1 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/UnitQuad.cpp */ = {isa = PBXBuildFile; fileRef = 407D66A36649444C80FA7A93 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/UnitQuad.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		01783CDEDA3846D7AABB10EE /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		1398602F030A4780898CEB02 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		26B908186C6940E99E3BD4F1 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		3CC63F1A18374BC9A386E554 /* Release */ = {
+		05C408BAB78D438C92B0E15B /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		45C072027E98489385E07D7D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		7B4805682C584B46BA2C4C05 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		A141FAF1CBEB4BF59E215116 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		325CCC8AD7B24A41AE9433F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 487EA920F3C64590836075C8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74081D2E6573483C888EB8B2;
-			remoteInfo = ZERO_CHECK;
-		};
-		6B3CF4710A224700B1D6AB2A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 487EA920F3C64590836075C8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74081D2E6573483C888EB8B2;
-			remoteInfo = ZERO_CHECK;
-		};
-		BB5512C537CF41F8823FCEBB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 487EA920F3C64590836075C8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74081D2E6573483C888EB8B2;
-			remoteInfo = ZERO_CHECK;
-		};
-		DB18BE6C88C940B38CF7568B /* PBXContainerItemProxy */ = {
+		005137D4AA964469A8C98FDB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 487EA920F3C64590836075C8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 158D34BC912A4A909F278831;
 			remoteInfo = App_autogen;
 		};
-		E5AED705D6D04D82AFBBF3ED /* PBXContainerItemProxy */ = {
+		055645BDB7F54F71A9A7B2F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 487EA920F3C64590836075C8 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2F53801E90E8472993B31369;
 			remoteInfo = App;
 		};
+		8C9FFD8347314B62BBBA5C05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 487EA920F3C64590836075C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74081D2E6573483C888EB8B2;
+			remoteInfo = ZERO_CHECK;
+		};
+		D74DBAEA887F4094A386ECB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 487EA920F3C64590836075C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74081D2E6573483C888EB8B2;
+			remoteInfo = ZERO_CHECK;
+		};
+		F60DC9B0367442FE941E5C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 487EA920F3C64590836075C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74081D2E6573483C888EB8B2;
+			remoteInfo = ZERO_CHECK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22E7EFE48DF64E5ABD99B432 /* App */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = App; sourceTree = BUILT_PRODUCTS_DIR; };
-		37CC0246A72A43DE9AF042EB /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		53C8922A48CA45AE910D9ACE /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = build/App_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
-		6EC1156585D2453897DBD9E2 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Camera.cpp; path = Camera.cpp; sourceTree = SOURCE_ROOT; };
-		7E2EC7365F6D42E2A5D3FBF6 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/App.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = App.cpp; path = App.cpp; sourceTree = SOURCE_ROOT; };
-		8D21333669A34EAFAAA9D972 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/UnitQuad.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UnitQuad.cpp; path = UnitQuad.cpp; sourceTree = SOURCE_ROOT; };
-		9BFC52BEA2B34081AB03AD13 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Renderable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Renderable.cpp; path = Renderable.cpp; sourceTree = SOURCE_ROOT; };
-		B90E51685808427F8031ED12 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/BasicWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BasicWidget.cpp; path = BasicWidget.cpp; sourceTree = SOURCE_ROOT; };
-		D3DCEBC7363249E98120D6F0 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		D3EA07504A4E4D1DBF34BBED /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		E23A10303B5148D7B4BABACC /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		0BF4F491CF0B43FF9072E3D1 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/BasicWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BasicWidget.cpp; path = BasicWidget.cpp; sourceTree = SOURCE_ROOT; };
+		32FD89846E134CC5BC0EC1DC /* App */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = App; sourceTree = BUILT_PRODUCTS_DIR; };
+		400BAD2B85D84EFE834904E4 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Camera.cpp; path = Camera.cpp; sourceTree = SOURCE_ROOT; };
+		407D66A36649444C80FA7A93 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/UnitQuad.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UnitQuad.cpp; path = UnitQuad.cpp; sourceTree = SOURCE_ROOT; };
+		57DFD2FE8A9C481094C6D0B4 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6A2FF42F9516443C9B3FAE3B /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		996A98A09BB641B68C66A44E /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CA0BA51DE4D148A38D81BE22 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/App.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = App.cpp; path = App.cpp; sourceTree = SOURCE_ROOT; };
+		CE7123B3F1394ADFA53B6FD7 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Renderable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Renderable.cpp; path = Renderable.cpp; sourceTree = SOURCE_ROOT; };
+		CECD269351ED477F9349C0F1 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = build/App_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		E97F376666DD4A269EA64D99 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		1E55036CFE6444D5BE0195A1 /* App_autogen */ = {
-			isa = PBXGroup;
-			children = (
-				D5E19967399443FFBD1BE6C5 /* CMake Rules */,
-				37CC0246A72A43DE9AF042EB /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */,
-			);
-			name = App_autogen;
-			sourceTree = "<group>";
-		};
-		393D6387FF884DFEAC615953 /* CMake Rules */ = {
+		1F5881ED98BC40BEABD5696D /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		3D7E5A669D4A42998392C591 = {
+		2D2E941117944A88AA4D907F /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				4C74D47CA7AF48C5937F2D98 /* App */,
-				1E55036CFE6444D5BE0195A1 /* App_autogen */,
-				404FC9BC760C408E979186DD /* ALL_BUILD */,
-				EEF2B7E9B5CE4165BAC460A0 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		404FC9BC760C408E979186DD /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				393D6387FF884DFEAC615953 /* CMake Rules */,
-				D3EA07504A4E4D1DBF34BBED /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */,
+				3E0820A611094413AF68AEAC /* CMake Rules */,
+				996A98A09BB641B68C66A44E /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		4C74D47CA7AF48C5937F2D98 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				FF21C42D2C1F470AB5A256A1 /* Source Files */,
-				D3DCEBC7363249E98120D6F0 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */,
-			);
-			name = App;
-			sourceTree = "<group>";
-		};
-		D5E19967399443FFBD1BE6C5 /* CMake Rules */ = {
+		3E0820A611094413AF68AEAC /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		EEF2B7E9B5CE4165BAC460A0 /* Products */ = {
+		52B5BC99FA184334B357296A /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				22E7EFE48DF64E5ABD99B432 /* App */,
+				CA0BA51DE4D148A38D81BE22 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/App.cpp */,
+				0BF4F491CF0B43FF9072E3D1 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/BasicWidget.cpp */,
+				400BAD2B85D84EFE834904E4 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Camera.cpp */,
+				CE7123B3F1394ADFA53B6FD7 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Renderable.cpp */,
+				407D66A36649444C80FA7A93 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/UnitQuad.cpp */,
+				CECD269351ED477F9349C0F1 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/mocs_compilation.cpp */,
+				E97F376666DD4A269EA64D99 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		534E44287B184916B99EE659 /* App_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				1F5881ED98BC40BEABD5696D /* CMake Rules */,
+				57DFD2FE8A9C481094C6D0B4 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */,
+			);
+			name = App_autogen;
+			sourceTree = "<group>";
+		};
+		66BCF0818B4A4D909EE35D12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32FD89846E134CC5BC0EC1DC /* App */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF21C42D2C1F470AB5A256A1 /* Source Files */ = {
+		D020F0BDFD1A42FB98E13CF2 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				7E2EC7365F6D42E2A5D3FBF6 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/App.cpp */,
-				B90E51685808427F8031ED12 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/BasicWidget.cpp */,
-				6EC1156585D2453897DBD9E2 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Camera.cpp */,
-				9BFC52BEA2B34081AB03AD13 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Renderable.cpp */,
-				8D21333669A34EAFAAA9D972 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/UnitQuad.cpp */,
-				53C8922A48CA45AE910D9ACE /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/mocs_compilation.cpp */,
-				E23A10303B5148D7B4BABACC /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/main.cpp */,
+				52B5BC99FA184334B357296A /* Source Files */,
+				6A2FF42F9516443C9B3FAE3B /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/CMakeLists.txt */,
 			);
-			name = "Source Files";
+			name = App;
+			sourceTree = "<group>";
+		};
+		D1D4EC84B5F74B0C9ECADF7F = {
+			isa = PBXGroup;
+			children = (
+				D020F0BDFD1A42FB98E13CF2 /* App */,
+				534E44287B184916B99EE659 /* App_autogen */,
+				2D2E941117944A88AA4D907F /* ALL_BUILD */,
+				66BCF0818B4A4D909EE35D12 /* Products */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,19 +218,19 @@
 /* Begin PBXNativeTarget section */
 		2F53801E90E8472993B31369 /* App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 561BCC62D58B406DA6486DDE /* Build configuration list for PBXNativeTarget "App" */;
+			buildConfigurationList = 04EF443DDE1A4F19840206D1 /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
-				47FE427A4A9B43A29A93BBBE /* Sources */,
+				615B646F12A142B78E631E36 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				683FE4D04DDF4F91BA914C3C /* PBXTargetDependency */,
-				C0EA6F9816484B29ABFC8381 /* PBXTargetDependency */,
+				FB7019B3C39343C3ADE995A1 /* PBXTargetDependency */,
+				C49E07926E134DA5BA10B44C /* PBXTargetDependency */,
 			);
 			name = App;
 			productName = App;
-			productReference = 22E7EFE48DF64E5ABD99B432 /* App */;
+			productReference = 32FD89846E134CC5BC0EC1DC /* App */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -242,18 +242,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1130;
 			};
-			buildConfigurationList = 6D5F606DD73C4519B61D7460 /* Build configuration list for PBXProject "App" */;
+			buildConfigurationList = AC032315A476485F86C7CA58 /* Build configuration list for PBXProject "App" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				01783CDEDA3846D7AABB10EE /* Debug */,
-				3CC63F1A18374BC9A386E554 /* Release */,
-				26B908186C6940E99E3BD4F1 /* MinSizeRel */,
-				1398602F030A4780898CEB02 /* RelWithDebInfo */,
+				45C072027E98489385E07D7D /* Debug */,
+				05C408BAB78D438C92B0E15B /* Release */,
+				A141FAF1CBEB4BF59E215116 /* MinSizeRel */,
+				7B4805682C584B46BA2C4C05 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 3D7E5A669D4A42998392C591;
+			mainGroup = D1D4EC84B5F74B0C9ECADF7F;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
@@ -266,7 +266,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4B1D709483BE485BB19441F4 = {
+		3711E73C135F4B9FB4511053 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,7 +281,7 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		68BC3CE6D7A949298D82946F /* CMake Rules */ = {
+		39BE8D3B075542D18DC78002 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,7 +292,22 @@ exit 0";
 			shellScript = "make -C /Users/bhackney/Documents/Computer\\ Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build -f /Users/bhackney/Documents/Computer\\ Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		860F7027FD9140CFB19B0378 /* CMake Rules */ = {
+		BDDD408CD3D14F9F8E9D92B9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BE94467CE52B4A169A32F17F /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,37 +318,7 @@ exit 0";
 			shellScript = "make -C /Users/bhackney/Documents/Computer\\ Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build -f /Users/bhackney/Documents/Computer\\ Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		8D5D46B9F3AA42279FFCB3D4 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		96B9FCD5E09E469DA8BDFAE7 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		D9533880751B4503A513B7A4 /* CMake Rules */ = {
+		D27DDA9FDAAC4370BFB5D20F /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,103 +329,70 @@ exit 0";
 			shellScript = "make -C /Users/bhackney/Documents/Computer\\ Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build -f /Users/bhackney/Documents/Computer\\ Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/CMakeScripts/App_autogen_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
+		F5ADCFBC76A64A00824DB9E8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		47FE427A4A9B43A29A93BBBE /* Sources */ = {
+		615B646F12A142B78E631E36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844591DB049646C4B505BEF4 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/App.cpp */,
-				28B45CE710F642058F712908 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/BasicWidget.cpp */,
-				4FF521CCFA434A88B7D40555 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Camera.cpp */,
-				C5AF32A3BC2640A38D46C831 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Renderable.cpp */,
-				DC3D6664A2444329AD6EC8CF /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/UnitQuad.cpp */,
-				61FA77454BDE445BA3A31ABE /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/mocs_compilation.cpp */,
-				CCACC39C37CD4C06AB0EF413 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/main.cpp */,
+				65AFD744FF4A44E599EC285A /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/App.cpp */,
+				849B0608439F407AA7D96161 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/BasicWidget.cpp */,
+				6AE82D3EBC3A4CBA91C0B7B2 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Camera.cpp */,
+				7D7DD998B3ED44D8B18FD3F9 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/Renderable.cpp */,
+				C5FD0217FE414889AF4FF5D1 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/UnitQuad.cpp */,
+				A26DE7D0795A49BBB98AD50C /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/mocs_compilation.cpp */,
+				2A8F6B220EA74F25B6F43FA0 /* /Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/main.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6159DB8993AE4AC5B7C7A540 /* PBXTargetDependency */ = {
+		2FDB02F28B8742F9909BC2FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2F53801E90E8472993B31369 /* App */;
-			targetProxy = E5AED705D6D04D82AFBBF3ED /* PBXContainerItemProxy */;
+			targetProxy = 055645BDB7F54F71A9A7B2F9 /* PBXContainerItemProxy */;
 		};
-		683FE4D04DDF4F91BA914C3C /* PBXTargetDependency */ = {
+		786431802E4749BBA35B6612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74081D2E6573483C888EB8B2 /* ZERO_CHECK */;
+			targetProxy = F60DC9B0367442FE941E5C30 /* PBXContainerItemProxy */;
+		};
+		944682C2EC5647DA8693F67A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74081D2E6573483C888EB8B2 /* ZERO_CHECK */;
+			targetProxy = D74DBAEA887F4094A386ECB7 /* PBXContainerItemProxy */;
+		};
+		C49E07926E134DA5BA10B44C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74081D2E6573483C888EB8B2 /* ZERO_CHECK */;
+			targetProxy = 8C9FFD8347314B62BBBA5C05 /* PBXContainerItemProxy */;
+		};
+		FB7019B3C39343C3ADE995A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 158D34BC912A4A909F278831 /* App_autogen */;
-			targetProxy = DB18BE6C88C940B38CF7568B /* PBXContainerItemProxy */;
-		};
-		9217CE4370C846B2B0ECB072 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 74081D2E6573483C888EB8B2 /* ZERO_CHECK */;
-			targetProxy = 325CCC8AD7B24A41AE9433F3 /* PBXContainerItemProxy */;
-		};
-		9948125216A544A8A63A5F46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 74081D2E6573483C888EB8B2 /* ZERO_CHECK */;
-			targetProxy = BB5512C537CF41F8823FCEBB /* PBXContainerItemProxy */;
-		};
-		C0EA6F9816484B29ABFC8381 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 74081D2E6573483C888EB8B2 /* ZERO_CHECK */;
-			targetProxy = 6B3CF4710A224700B1D6AB2A /* PBXContainerItemProxy */;
+			targetProxy = 005137D4AA964469A8C98FDB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05E6F22E04E545B4963E3F7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/build";
-			};
-			name = Release;
-		};
-		06A1FE1B7EC4450BBBC09803 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_OPENGL_LIB);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("\"/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build\"","\"/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination\"","\"/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/include_Release\"");
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = /Users/bhackney/Qt/5.14.0/clang_64/lib;
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui /Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = App;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/Headers,"/Users/bhackney/Qt/5.14.0/clang_64/./mkspecs/macx-clang",/Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/Headers);
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		0D5E9DF152E44016BAF651B4 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/build";
-			};
-			name = MinSizeRel;
-		};
-		1AC42D39C6104E74A303B134 /* RelWithDebInfo */ = {
+		04051485623C4EC3BEC0FCBD /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -468,57 +420,35 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		346E809915134427ABC508DC /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/build";
-			};
-			name = RelWithDebInfo;
-		};
-		38CD9062D9A34EE5AC81AAB4 /* Debug */ = {
+		0DB0416977144507AEA6D03D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_OPENGL_LIB);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build\"","\"/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination\"","\"/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/include_Release\"");
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
+				LD_RUNPATH_SEARCH_PATHS = /Users/bhackney/Qt/5.14.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui /Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = App_autogen;
+				PRODUCT_NAME = App;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/Headers,"/Users/bhackney/Qt/5.14.0/clang_64/./mkspecs/macx-clang",/Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/Headers);
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = Debug;
+			name = Release;
 		};
-		38DA4670CCF740F3ABEB984D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		3C4967695A7348409AF681BF /* RelWithDebInfo */ = {
+		0EEA79B899B04F90AEEA14F8 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -538,7 +468,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		3EDFD22F0B354453A506A0BF /* RelWithDebInfo */ = {
+		23BB6EA0F9374102AE27FD11 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -550,7 +480,7 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = App_autogen;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
 				USE_HEADERMAP = NO;
@@ -558,65 +488,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		426B841EF58E47F989F22D09 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = App_autogen;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		81D47B7D5E0B4FD780AD82AC /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				FRAMEWORK_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks);
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_OPENGL_LIB);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("\"/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build\"","\"/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination\"","\"/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/include_MinSizeRel\"");
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = /Users/bhackney/Qt/5.14.0/clang_64/lib;
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui /Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = App;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/Headers,"/Users/bhackney/Qt/5.14.0/clang_64/./mkspecs/macx-clang",/Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/Headers);
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		86490577D3594A40A9C02A47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/build";
-			};
-			name = Debug;
-		};
-		9BD19BEBD4384A40A29F2384 /* Release */ = {
+		27B65538337E42C68EC07A78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -636,7 +508,67 @@ exit 0";
 			};
 			name = Release;
 		};
-		AE43AD25D7B4484788F1134B /* Debug */ = {
+		3B67EAC2A599436F8F3D2CCD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/build";
+			};
+			name = MinSizeRel;
+		};
+		43A6D17502D0490ABAB81F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/build";
+			};
+			name = Debug;
+		};
+		519963C9C7B142729B88E720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		59BA6204BF3148D0863F9CFA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = App_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6C7E69B82C49460FB15D0968 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -656,7 +588,67 @@ exit 0";
 			};
 			name = Debug;
 		};
-		B24FD11D043F4AD69FA3350C /* Debug */ = {
+		723C1FD1BDBB4356AADCC829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = App_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		75BFCB6809544F8DB09271CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = App_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		76F5DCFB0C4F477EADCF63C2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		89427E976EDC464A98BA19BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -684,7 +676,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		C57C4A3ACCB041AF82198C77 /* MinSizeRel */ = {
+		8C1D2E9CA96E4090AAB0B835 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -696,7 +688,7 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = App_autogen;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
 				USE_HEADERMAP = NO;
@@ -704,47 +696,45 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		D5F1B2EE98D94A4787DC21CC /* Debug */ = {
+		8E8366BA779141D69C8911FB /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG,QT_OPENGL_LIB);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build\"","\"/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination\"","\"/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/App_autogen/include_MinSizeRel\"");
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
+				LD_RUNPATH_SEARCH_PATHS = /Users/bhackney/Qt/5.14.0/clang_64/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/QtOpenGL /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/QtWidgets /Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/QtGui /Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/QtCore";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = App;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/bhackney/Qt/5.14.0/clang_64/lib/QtWidgets.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/Users/bhackney/Qt/5.14.0/clang_64/lib/QtCore.framework/Headers,"/Users/bhackney/Qt/5.14.0/clang_64/./mkspecs/macx-clang",/Users/bhackney/Qt/5.14.0/clang_64/lib/QtOpenGL.framework/Headers);
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		D8461B4668494751B94D6A2E /* Release */ = {
+		97DA1162F2CC41B5BEC501BE /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/build";
 			};
-			name = Release;
+			name = RelWithDebInfo;
 		};
-		ECBFEDDC2CF045C698C16F90 /* MinSizeRel */ = {
+		CBDBC6A27618455DB72931AF /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -764,7 +754,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		FC3846CA628D4D2593A36DE9 /* Release */ = {
+		DE0718AE5C834D2A95798452 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -776,68 +766,78 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = App_autogen;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E5EF0B44288F463390216BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/bhackney/Documents/Computer Graphics/computer-graphics-partner/ComputerGraphics/Lab8_CameraAndIllumination/build/build";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		339C122965CF435BBAA6DC8A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		04EF443DDE1A4F19840206D1 /* Build configuration list for PBXNativeTarget "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE43AD25D7B4484788F1134B /* Debug */,
-				9BD19BEBD4384A40A29F2384 /* Release */,
-				ECBFEDDC2CF045C698C16F90 /* MinSizeRel */,
-				38DA4670CCF740F3ABEB984D /* RelWithDebInfo */,
+				89427E976EDC464A98BA19BB /* Debug */,
+				0DB0416977144507AEA6D03D /* Release */,
+				8E8366BA779141D69C8911FB /* MinSizeRel */,
+				04051485623C4EC3BEC0FCBD /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		4051F9912973455D9E8A7560 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		13E89E94FA904E48B2B12E33 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5F1B2EE98D94A4787DC21CC /* Debug */,
-				D8461B4668494751B94D6A2E /* Release */,
-				C57C4A3ACCB041AF82198C77 /* MinSizeRel */,
-				3C4967695A7348409AF681BF /* RelWithDebInfo */,
+				6C7E69B82C49460FB15D0968 /* Debug */,
+				27B65538337E42C68EC07A78 /* Release */,
+				CBDBC6A27618455DB72931AF /* MinSizeRel */,
+				23BB6EA0F9374102AE27FD11 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		53ECB2A9AD6C4BFF80A206E1 /* Build configuration list for PBXAggregateTarget "App_autogen" */ = {
+		AC032315A476485F86C7CA58 /* Build configuration list for PBXProject "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38CD9062D9A34EE5AC81AAB4 /* Debug */,
-				FC3846CA628D4D2593A36DE9 /* Release */,
-				426B841EF58E47F989F22D09 /* MinSizeRel */,
-				3EDFD22F0B354453A506A0BF /* RelWithDebInfo */,
+				43A6D17502D0490ABAB81F4D /* Debug */,
+				E5EF0B44288F463390216BC1 /* Release */,
+				3B67EAC2A599436F8F3D2CCD /* MinSizeRel */,
+				97DA1162F2CC41B5BEC501BE /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		561BCC62D58B406DA6486DDE /* Build configuration list for PBXNativeTarget "App" */ = {
+		BC3FA3130D4A49C5A8646424 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B24FD11D043F4AD69FA3350C /* Debug */,
-				06A1FE1B7EC4450BBBC09803 /* Release */,
-				81D47B7D5E0B4FD780AD82AC /* MinSizeRel */,
-				1AC42D39C6104E74A303B134 /* RelWithDebInfo */,
+				DE0718AE5C834D2A95798452 /* Debug */,
+				519963C9C7B142729B88E720 /* Release */,
+				76F5DCFB0C4F477EADCF63C2 /* MinSizeRel */,
+				0EEA79B899B04F90AEEA14F8 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6D5F606DD73C4519B61D7460 /* Build configuration list for PBXProject "App" */ = {
+		F568C0B85F614BAA895BDAFD /* Build configuration list for PBXAggregateTarget "App_autogen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86490577D3594A40A9C02A47 /* Debug */,
-				05E6F22E04E545B4963E3F7F /* Release */,
-				0D5E9DF152E44016BAF651B4 /* MinSizeRel */,
-				346E809915134427ABC508DC /* RelWithDebInfo */,
+				75BFCB6809544F8DB09271CA /* Debug */,
+				723C1FD1BDBB4356AADCC829 /* Release */,
+				8C1D2E9CA96E4090AAB0B835 /* MinSizeRel */,
+				59BA6204BF3148D0863F9CFA /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
